@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.635578ab.css",
-    "main.js": "/react-homework-template/static/js/main.62f46fa3.js",
-    "static/media/background_tv.png": "/react-homework-template/static/media/background_tv.cff66695c61b9e9363f3.png",
-    "static/media/background_desktop.png": "/react-homework-template/static/media/background_desktop.337762fabcfb75abc4e9.png",
-    "static/media/background_tablet.png": "/react-homework-template/static/media/background_tablet.9d2112ce543ea7a65cbf.png",
-    "static/media/background_mobile.png": "/react-homework-template/static/media/background_mobile.ffb174b377a296139444.png",
-    "static/media/sprite.svg": "/react-homework-template/static/media/sprite.5bb12233ee87577024a62d4001bd023f.svg",
-    "index.html": "/react-homework-template/index.html",
-    "main.635578ab.css.map": "/react-homework-template/static/css/main.635578ab.css.map",
-    "main.62f46fa3.js.map": "/react-homework-template/static/js/main.62f46fa3.js.map"
+    "main.css": "/abz-test/static/css/main.635578ab.css",
+    "main.js": "/abz-test/static/js/main.6c293986.js",
+    "static/media/background_tv.png": "/abz-test/static/media/background_tv.cff66695c61b9e9363f3.png",
+    "static/media/background_desktop.png": "/abz-test/static/media/background_desktop.337762fabcfb75abc4e9.png",
+    "static/media/background_tablet.png": "/abz-test/static/media/background_tablet.9d2112ce543ea7a65cbf.png",
+    "static/media/background_mobile.png": "/abz-test/static/media/background_mobile.ffb174b377a296139444.png",
+    "static/media/sprite.svg": "/abz-test/static/media/sprite.5bb12233ee87577024a62d4001bd023f.svg",
+    "index.html": "/abz-test/index.html",
+    "main.635578ab.css.map": "/abz-test/static/css/main.635578ab.css.map",
+    "main.6c293986.js.map": "/abz-test/static/js/main.6c293986.js.map"
   },
   "entrypoints": [
     "static/css/main.635578ab.css",
-    "static/js/main.62f46fa3.js"
+    "static/js/main.6c293986.js"
   ]
 }
