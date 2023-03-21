@@ -13,6 +13,9 @@ export const App = () => {
 
   const dispatch = useDispatch();
 
+  // Default receipt of positions and token. 
+  // P.S. the token can be obtained immediately before sending the form, but this option is more convenient given that this is a test work.
+
   useEffect(() => {
     dispatch(getPositions())
     dispatch(getToken())

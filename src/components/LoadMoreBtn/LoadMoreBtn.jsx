@@ -16,8 +16,7 @@ const LoadMoreBtn = () => {
 
     useEffect(() => {
         if (currentPage === 1) return
-        console.log(currentPage);
-        dispatch(getUsers(currentPage))
+        dispatch(getUsers(currentPage))   // Load new users when the page is incremented
     }, [currentPage, dispatch])
 
 

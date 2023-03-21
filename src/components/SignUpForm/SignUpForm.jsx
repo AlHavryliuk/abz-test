@@ -38,7 +38,7 @@ const SignUpForm = () => {
 
     const checkValidation = (image) => {
         if (selectedFile) {
-            const photoSize = selectedFile.size / 1024 / 1024;              // size Mb
+            const photoSize = selectedFile.size / 1024 / 1024;              // Validation size (Mb)
             const allowedTypes = ["image/jpeg", "image/jpg"];
             if (photoSize > 5) {
                 console.log("The photo size must not be greater than 5 Mb.");
@@ -46,7 +46,7 @@ const SignUpForm = () => {
             }
 
             if (!allowedTypes.includes(selectedFile.type)) {
-                console.log("The photo format must be jpeg/jpg type.");
+                console.log("The photo format must be jpeg/jpg type.");  // Validation type
                 return false;
             }
 
@@ -55,11 +55,11 @@ const SignUpForm = () => {
     }
 
     const handleUploadClick = () => {
-        fileInputRef.current.click();             // триггер клика по input[type="file"]
+        fileInputRef.current.click();             // trigger click input[type="file"]
     };
 
     const handleFileChange = (event) => {
-        setSelectedFile(event.target.files[0]);   // сохраняем выбранный файл в state
+        setSelectedFile(event.target.files[0]);   // save file in state
     };
 
     return (
@@ -106,9 +106,5 @@ const SignUpForm = () => {
         </CustomContainer >
     )
 }
-
-
-
-
 
 export default SignUpForm
